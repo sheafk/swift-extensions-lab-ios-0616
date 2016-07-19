@@ -14,8 +14,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
+        let fullname = "Mickey Mouse"
+        let phoneNumber = 8675309
+        
+        print(fullname.calculatePoints())
+        print(phoneNumber)
+        print(fullname.pigLatin)
+        print(fullname.unicornLevel)
+        
+        unicornLevelLabel.text = fullname.unicornLevel
     }
 }
 
